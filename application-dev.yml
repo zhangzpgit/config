@@ -2,4 +2,4 @@ server:
   port: 8699
 spring:
   application:
-    name: configclient
+    name: application
