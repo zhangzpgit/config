@@ -1,18 +1,5 @@
 server:
-  port: 8688 # 访问可以返回Git上address-dev.properties文件内容 http://localhost:8688/address-dev.properties 或者http://localhost:8688/address/dev都可以
+  port: 8689
 spring:
   application:
-    name: config-server
-  cloud:
-    bus:
-      trace:
-        enabled: true
-    config:
-      label: master  //配置仓库的分支
-      server:
-        git:
-          #uri: https://github.com/forezp/SpringcloudConfig/  # git仓库的地址
-          uri: https://github.com/zhangzpgit/config.git  # git仓库的地址
-          searchPaths: config                                # git仓库地址下的相对地址，可以配置多个，用,分割
-          username: zhangzpgit                                      # git仓库的账号   共有仓库可以不写
-          assword: zzp1234     
+    name: config-client
