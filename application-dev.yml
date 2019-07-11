@@ -1,5 +1,5 @@
 server:
-  port: 8610
+  port: 8699
 spring:
   application:
     name: config-client
@@ -8,3 +8,4 @@ rabbitmq:
   port: 5672
   username: guest
   password: guest
+aaa: bbb
