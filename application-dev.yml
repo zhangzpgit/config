@@ -1,7 +1,7 @@
 server:
-  port: 86fdsf
+  port: 8699
 spring:
   application:
     name: config-client
        
-aaa: 8999
+aaa: 8999fgfdg
