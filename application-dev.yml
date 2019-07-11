@@ -3,9 +3,5 @@ server:
 spring:
   application:
     name: config-client
-rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest       
-aaa: 8888
+       
+aaa: 8999
