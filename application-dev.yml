@@ -8,4 +8,4 @@ rabbitmq:
   port: 5672
   username: guest
   password: guest
-aaa: ccc
+aaa: bbb
